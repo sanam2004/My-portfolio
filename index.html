@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sagupta Perween's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link  href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="container nav-inner">
+        <a class="brand" href="#top">
+            <span class="brand-badge"> </span>
+            <span>SP</span>
+            <span>Sagupta&nbsp;Parween</span>
+      </a>
+        <div class="nav-links" id="navlinks">
+            <a  class="nav-links" href="#about">About</a>
+            <a  class="nav-links" href="#skills">Skills</a>
+            <a class="nav-links" href="#projects">Projects</a>
+            <a class="nav-links" href="#education">Education</a>
+            <a class="nav-links" href="#contact">Contact</a>
+            <a class="nav-cta" href="https://github.com/sanam2004" target="_blank" rel="noreferrer">Github</a>
+        </div>  
+         <div class="nav-action">
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">🌗</button>
+            <button class="hamburger" id="hamburger" aria-label="Open menu" aria-controls="mobileMenu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+         </div>
+
+    </div>
+       <div class="container mobile-menu" id="mobileMenu" hidden>
+        <a href="#about" onclick="closeMenu()">About</a>
+        <a href="#sklls" onclick="closeMenu()">Skills</a>
+        <a href="#projects" onclick="closeMenu()">Projects</a>
+        <a href="#education" onclick="closeMenu()">Education</a>
+        <a href="#conatct" onclick="closeMenu()">Contact</a>
+        <a href="https://github.com/sanam2004" target="_blank" onclick="closeMenu()">Github</a>
+   </div>
+ </nav>    
+ <!-- hero -->
+  <header id="top" class="hero">
+    <div class="container hero-grid">
+        <div>
+            <p class="eyebrow">BCA  . Frontend Developer</p>
+            <h1 class="title">Hi, I'm <span class="accent">Sagupta Parween</span>. <br>I build clean, fast, responsive website</h1>
+            <div class="hero-cta">
+                <a class="btn btn btn-primary" href="#projects">View Projects</a>
+                 <a class="btn btn btn-outline" href="mailto:sanamkhansona123@gamil.com">Email</a>
+                 <a class="btn btn btn-outline" href="asserts/Sagupta_Parween_Resume.pdf" download>Download Resume</a>
+            </div>
+            <div class="links-inline">
+                <a href="https://www.linkedin.com/in/sagupta-parween-a682262b7" target="_blank" rel="noreferrer">Linkedin</a>
+                <span>•</span>
+                <a href="https://github.com/sanam2004" target="_blank" rel="noreferrer">Github</a>
+                <span>•</span>
+                <a href="tel:+917029160276"> +91 7029160276</a>
+            </div>
+        </div>
+       <aside class="card hero-card">
+        <div class="stat"><span class="dot"><div></span></div><strong>CGPA:</strong>75% </div></div>
+        <div class="stat"><span  class="dot alt"></span><div><strong>Degree:</strong>BCA - IMR Duhai (Ghaziabad)</div></div>
+        <div class="stat"><span class="dot"></span><div><strong>Graduation</strong>2026</div></div>
+        <div class="stat"><span class="dot gradient"></span><div><strong>Cert:</strong>Cybersecurity (Honeybell), Email writting, website creation (Infosys springboard).</div></div>
+       </aside>
+    </div>
+
+  </header>
+   <!-- About -->
+    <section id="About" class="section">
+        <div class="container">
+            <h2 class="section-title">About</h2>
+            <p class="section-sub">I love turning ideas into polished interfaces. I care about semantic HTML, modern css, and clean JavaScript. I'm exploring performance, accesibility, and those tiny design touches that make products feel professional. </p>
+             <div class="about-grid">
+               <div class="card">
+                 <h3>What I Do</h3>
+                 <ul>
+                    <li>Responsive, accesibility pages with HTML5/CSS3</li>
+                    <li>Pixel-perfect UIs from design to code</li>
+                    <li>Intrective compnenets with vanilla</li>
+                    <li>Performance & SEO basics</li>
+                 </ul>
+               </div> 
+                <div class="card">
+                  <h3>Highlights</h3>
+                  <ul>
+                    <li>Strong core web foundation</li>
+                    <li>Git/GitHub  & static deployments</li>
+                    <li>Clear communication & teamwork</li>
+                    <li>Fast leanrner, detail-oriented</li>
+                  </ul>
+                </div>
+             </div>
+        </div>
+    </section>
+    <!-- Skills -->
+     <section id="Skills" class="section-alt">
+        <div class="container">
+             <h2 class="section-title">Skills</h2>
+             <p class="section-sub">Core tools and technologies I use.</p>
+               <div class="chips">
+                <span class="chip">HTML5</span>
+                <span class="chip">CSS3</span>
+                <span class="chip">JavaScript (ES6)</span>
+                 <span class="chip">python</span>
+                 <span class="chip">Responsive Design</span>
+                 <span class="chip">Accessibility (a11y)</span>
+                 <span class="chip">SEO Basics</span>
+                 <span class="chip">Git & github</span>
+                 <span class="chip">Performance</span>
+                 <span class="chip">MySQL</span>
+               </div>
+        </div>
+    </section>
+    <!-- Projects -->
+     <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <p class="section-sub">A few I've designed & built. More on my GitHub.</p>
+            <div class="grid">
+                <article class="col-6 projects">
+                    <a href="https//github.com/sanam2004" target="_blank" rel="noreferrer">
+                        <img src="https://images.unsplash.com/photo-1518085250887-2f903c200fee?q=80&w=1200&auto=format&fit=crop" alt="Amazon clone project preview" loading="lazy">
+                        <div class="meta">
+                            <h3>Amazone clone (HTML & CSS)</h3>
+                            <p>Static Frontend clone focusing on layout, navigation, product cards, and responsive sections.</p>
+                         </div>
+                    </a>
+              </article>
+              <article class="cl-6 projects">
+                <a href="#" onclick="event.preventDefault(); alert();">
+                    <img src="https://images.unsplash.com/photo-1527694224015-b28cd3c6b4b4?q=80&w=1200&auto=format&fit=crop" alt="landing page preview" loading="lazy">
+                    <div class="meta">
+                        <h3>Modern Landing Pages</h3>
+                        <p>Clean hero, features, pricing grid, and Contact form - fully responsive.</p>
+                    </div>
+                </a>
+            </article>
+            </div>
+         </div>
+     </section>
+     <!-- Education -->
+      <section id="education" class="section-alt">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="card timeline">
+                <div class="tl-item">
+                    <strong>Institute of Management & Research, Duhai (Ghaziabad) -BCA</strong>
+                    <div>2023-2026</div>
+                    <div>Current CGPA: 75%</div>
+                </div>
+                 <div class="tl-item">
+                    <strong>Certification</strong>
+                    <div>Cybersecurity -Honeywell, Email writing, Website creation (Infosys springboard)</div>
+                 </div>
+            </div>
+        </div>
+       </section>
+       <!-- Contact -->
+       <section id="contact" class="section">
+        <div class="container contact-grid">
+            <div class="card">
+                <h2 class="section-title">Contact</h2>
+                <p class="section-sub">Have a projects in mind or just want to say hello? Drop a message - I'll reply soon.</p>
+                <form id="contactform" onsubmit="sendMail(event)">
+                    <label class="field">
+                        <span>Your Name</span>
+                       <input  id="name" name="name" type="text" placeholder="Enter your name" required/>
+                  </label>
+                  <label class="field">
+                    <span>Your Email</span>
+                    <input id="email" name="email" type="email" placeholder="you@exapmle.com" required/>
+                  </label>
+                  <label class="field">
+                    <span>Message</span>
+                    <textarea id="message" name="message" placeholder="Tell me about your project..." required></textarea>
+                  </label>
+                  <button class="btn btn-primary" type="submit">Send Message</button>
+                  <small class="muted">Uses <code>mailto:</code>. For production, switch to Formspree/EmailJS.</small>
+                </form>
+             </div>
+             <div class="card">
+                <h3>Quicks Links</h3>
+                <p><strong>Email:</strong> <a href="mailto:sanamkhansona123@gmail.com">sanamkhansona123@gmail.com</a></p>
+                <p><strong>Phone:</strong><a href="tel:+917029160276">+91 7029160276</a></p>
+                <p><strong>GitHub:</strong><a href="htps://github.com/sanam2004" target="_blank" rel="noreferrer">github.com/sanam2004</a></p>
+                <p><strong>LinkedIn</strong><a href="https://www.linkedin.com/in/sagupta-parween-a682262b7" target="_blank" rel="noreferrer">LinkedIn.com/in/sagupta-parween-a682262b7</a></p>
+             </div>
+        </div>
+ </section> 
+  <footer class="footer">
+    <div class="container footer-inner">
+        <div>© <span id="year"></span>Sagupta Parween. All rights reserved.</div>
+        <div class="footer-actions">
+            <a class="chip" href="#top">Back to top ↑</a>
+            <a class="chip" href="#" onclick="toggleTheme(); return false;">Toggle Theme</a>
+       </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
